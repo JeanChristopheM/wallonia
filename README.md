@@ -53,23 +53,23 @@ This project was made during a [Citizen of Wallonia]() hackaton.
 <!-- CONTACT -->
 ## Contact
 
-Project repository link: [here](https://github.com/)
+Project repository [link](https://github.com/)
 
-Angélique Paquot - [github]() - [linkedin]()
+Angélique Paquot - [github]() - [linkedin]() - [discord]()
 
-Corentine - [github]() - [linkedin]()
+Corentine - [github]() - [linkedin]() - [discord]()
 
-Eva - [github]() - [linkedin]()
+Eva - [github]() - [linkedin]() - [discord]()
 
-Jean-Cristophe - [github]() - [linkedin]()
+Jean-Cristophe - [github]() - [linkedin]() - [discord]()
 
-Loïc - [github]() - [linkedin]()
+Loïc - [github]() - [linkedin]() - [discord]()
 
-Lucas Lelli - [github]() - [linkedin]()
+Lucas Lelli - [github]() - [linkedin]() - [discord]()
 
-Stéphanie Antignac - [github](https://github.com/StephanieAn) - [linkedin](www.linkedin.com/in/stéphanie-antignac)
+Stéphanie Antignac - [github](https://github.com/StephanieAn) - [linkedin](www.linkedin.com/in/stéphanie-antignac) - [discord]()
 
-Zoé Ranzy - [github](https://github.com/hawkstan) - [linkedin](https://www.linkedin.com/in/z-m-ranzy/)
+Zoé Ranzy - [github](https://github.com/hawkstan) - [linkedin](https://www.linkedin.com/in/z-m-ranzy/) - [discord](https://discordapp.com/users/nfr#7235/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
