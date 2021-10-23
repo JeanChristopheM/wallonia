@@ -18,7 +18,30 @@ html body {
 }
 
 html #mapid {
-  height: 400px;
+  height: 300px;
   width: 100%;
+}
+
+html .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 480px) {
+  html .menu ul {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    gap: 1rem;
+  }
+}
+
+.leaflet-routing-container {
+  display: none;
 }
 /*# sourceMappingURL=main.css.map */

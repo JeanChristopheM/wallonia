@@ -144,5 +144,12 @@ const app = async () => {
         "Communities": commuLayer
     }
     L.control.layers(null, overlays).addTo(mymap);
+
+    L.Routing.control({
+        waypoints: [
+            L.latLng(50.56596555821731, 3.445941318404087),
+            L.latLng(50.562317931101774, 3.4782212156620282)
+        ]
+    }).addTo(mymap);
 }
 app();
