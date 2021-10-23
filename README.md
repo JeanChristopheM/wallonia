@@ -6,10 +6,10 @@
 <br />
 <div align="center">
   <a href="">
-    <img src="./src/media/antoing.png" alt="Antoing armories" width="80" height="130">
+    <img src="./src/media/antoing.png" alt="Antoing armories" height="150px">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Boot'Antoing</h3>
 
   <p align="center">
     project_description
@@ -38,7 +38,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-project_title was made during a [Citizens of Wallonia](https://www.citizensofwallonia.be/) hackaton. 
+Boot'Antoing was made during a [Citizens of Wallonia](https://www.citizensofwallonia.be/) hackaton. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
