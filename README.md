@@ -6,13 +6,13 @@
 <br />
 <div align="center">
   <a href="">
-    <img src="" alt="Antoing armories" width="80" height="80">
+    <img src="./src/media/antoing.png" alt="Antoing armories" width="80" height="80">
   </a>
 
-<h3 align="center">Project title</h3>
+<h3 align="center">project_title</h3>
 
   <p align="center">
-    Project aiming to 
+    project_description
   </p>
 </div>
 
@@ -38,13 +38,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project was made during a [Citizen of Wallonia]() hackaton.
+project_title was made during a [Citizens of Wallonia](https://www.citizensofwallonia.be/) hackaton. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Built With
 
-* nothing for now
+* love
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -53,21 +53,21 @@ This project was made during a [Citizen of Wallonia]() hackaton.
 <!-- CONTACT -->
 ## Contact
 
-Project repository [link](https://github.com/)
+Project repository [link](https://github.com/JeanChristopheM/wallonia)
 
-Angélique Paquot - [github]() - [linkedin]() - [discord]()
+Angélique Paquot - [github]() - [linkedin]() - [discord](https://discordapp.com/users/Angélique Paquot#8024)
 
-Corentine - [github]() - [linkedin]() - [discord]()
+Corentine - [github]() - [linkedin]() - [discord](https://discordapp.com/users/Corentine#1141)
 
-Eva - [github]() - [linkedin]() - [discord]()
+Eva Mélinand - [github]() - [linkedin]() - [discord](https://discordapp.com/users/Eva Mélinand#6043)
 
-Jean-Cristophe - [github]() - [linkedin]() - [discord]()
+Jean-Christophe - [github]() - [linkedin]() - [discord](https://discordapp.com/users/JeanCM#7711)
 
-Loïc - [github]() - [linkedin]() - [discord]()
+Loïc Rouaud - [github]() - [linkedin]() - [discord](https://discordapp.com/users/Loïc Rouaud#4341)
 
-Lucas Lelli - [github]() - [linkedin]() - [discord]()
+Lucas Ielli - [github]() - [linkedin]() - [discord](https://discordapp.com/users/Lucas Ielli#8302)
 
-Stéphanie Antignac - [github](https://github.com/StephanieAn) - [linkedin](www.linkedin.com/in/stéphanie-antignac) - [discord]()
+Stéphanie Antignac - [github](https://github.com/StephanieAn) - [linkedin](www.linkedin.com/in/stéphanie-antignac) - [discord](https://discordapp.com/users/Stephanie A#5160)
 
 Zoé Ranzy - [github](https://github.com/hawkstan) - [linkedin](https://www.linkedin.com/in/z-m-ranzy/) - [discord](https://discordapp.com/users/nfr#7235/)
 
@@ -78,7 +78,7 @@ Zoé Ranzy - [github](https://github.com/hawkstan) - [linkedin](https://www.link
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Citizen of Wallonia]()
+* [Citizens of Wallonia](https://www.citizensofwallonia.be/)
 * [BeCode](https://becode.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
