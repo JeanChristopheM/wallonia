@@ -1,5 +1,5 @@
 const app = async () => {
-    const mymap = L.map('mapid').setView([50.56179485753007, 3.4618081153817815], 13);
+    const mymap = L.map('mapid').setView([50.56688719898623, 3.448578663865935], 12);
     const attribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
     const tileUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     const tiles = L.tileLayer(tileUrl, { attribution });
@@ -147,8 +147,10 @@ const app = async () => {
 
     L.Routing.control({
         waypoints: [
-            L.latLng(50.56596555821731, 3.445941318404087),
-            L.latLng(50.562317931101774, 3.4782212156620282)
+            L.latLng(50.56588558814532, 3.4484609688754),
+            L.latLng(50.57669325812821, 3.4396104663853166),
+            L.latLng(50.57717021043974, 3.438131112058641),
+            L.latLng(50.5795934390527, 3.4309012416702567)
         ]
     }).addTo(mymap);
 }
