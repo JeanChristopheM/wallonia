@@ -12,7 +12,7 @@
 <h3 align="center">Boot'Antoing</h3>
 
   <p align="center">
-    project_description
+    A city map of Antoing made with the objective of reconnecting the inhabitants to the land.
   </p>
 </div>
 
@@ -41,6 +41,8 @@
 ## About The Project
 
 Boot'Antoing was made during a [Citizens of Wallonia](https://www.citizensofwallonia.be/) hackathon. 
+The aim is to reconnect the citizens with the history of their home, to boost local city life, and aid local shops.  
+The hackathon was only for a week-end, so it's a prototype, not a full app. The final goal would be to have an app integrated into [Wallonie en Poche](https://wallonie.enpoche.be/wallonie), that people could use to plan walks around the land and discover its heritage and local life along the way.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -57,6 +59,7 @@ Boot'Antoing was made during a [Citizens of Wallonia](https://www.citizensofwall
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+The app would be used to plan local strolls, discover local history and monuments, be informed about local events, participate in games to win some sales coupons for local shops,...  
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
@@ -68,10 +71,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Prototype made for demo
-- [] Feature 2
-- [] Feature 3
-    - [] Nested Feature
+- [] Transitionning to mobile app
+- [] Adding capacity to scan QR codes
+- [] Adding quizz about local history
+    - [] Collect'em'all for all monuments of the city, with a recompense
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
 
@@ -82,7 +85,7 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 <!-- CONTACT -->
 ## Contact
 
-Project repository [link](https://github.com/JeanChristopheM/wallonia)
+[Project repository](https://github.com/JeanChristopheM/wallonia)
 
 Angélique Paquot - [github](https://github.com/Engie-Paquot) - [linkedin](https://www.linkedin.com/in/ang%C3%A9lique-paquot/) - [discord](https://discordapp.com/users/836507216549904404)
 
@@ -109,7 +112,9 @@ Zoé Ranzy - [github](https://github.com/hawkstan) - [linkedin](https://www.link
 
 * [Citizens of Wallonia](https://www.citizensofwallonia.be/)
 * [BeCode](https://becode.org/)
-* The city of [Antoing](https://www.antoing.net/)
+* [The city of Antoing](https://www.antoing.net/)
 * [Open Data Wallonie-Bruxelles](https://www.odwb.be/pages/home/)
+* [ULiège](https://www.uliege.be/cms/c_8699436/en/uliege)
+* [EVS](https://evs.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
