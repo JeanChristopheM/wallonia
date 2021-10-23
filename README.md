@@ -40,6 +40,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+[![Boot'Antoing Screen Shot][bootantoing-screenshot]](https://jeanchristophem.github.io/wallonia/)
+
 Boot'Antoing was made during a [Citizens of Wallonia](https://www.citizensofwallonia.be/) hackathon. 
 The aim is to reconnect the citizens with the history of their home, to boost local city life, and aid local shops.  
 The hackathon was only for a week-end, so it's a prototype, not a full app. The final goal would be to have an app integrated into [Wallonie en Poche](https://wallonie.enpoche.be/wallonie), that people could use to plan walks around the land and discover its heritage and local life along the way.
@@ -62,7 +64,7 @@ The hackathon was only for a week-end, so it's a prototype, not a full app. The 
 The app would be used to plan local strolls, discover local history and monuments, be informed about local events, participate in games to win some sales coupons for local shops,...  
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Prototype deploy](https://jeanchristophem.github.io/wallonia/)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -118,3 +120,8 @@ Zoé Ranzy - [github](https://github.com/hawkstan) - [linkedin](https://www.link
 * [EVS](https://evs.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[bootantoing-screenshot]: ./docs/media/screenshot.png
