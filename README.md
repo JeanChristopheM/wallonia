@@ -15,7 +15,7 @@
     <a href=https://github.com/JeanChristopheM/wallonia/tree/master/docs><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="jeanchristophem.github.io/wallonia/">View Demo</a>
+    <a href="https://jeanchristophem.github.io/wallonia/">View Demo</a>
   </p>
 </div>
 
