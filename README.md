@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="">
-    <img src="./src/media/antoing.png" alt="Antoing armories" size="20%">
+    <img src="./src/media/antoing.png" alt="Antoing armories" height="50px">
   </a>
 
 <h3 align="center">Boot'Antoing</h3>
