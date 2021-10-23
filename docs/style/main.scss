@@ -7,30 +7,153 @@ Texte: var(--text)
 Title: var(--title)
 
 Accentué: var(--accent) */
+$clr_primary: #252D30;
+$clr_secondary: #707070;
+$clr_white: #F3F3F3;
+$clr_accent: #F6343D;
 
-html {
+html, body {
     margin: 0;
     padding: 0;
-    body{
-        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    }
-    #mapid {
-        height: 300px;
-        width: 100%;
-    }
-    .menu {
-        ul {
-            display: flex;
-            justify-content: space-between;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    min-height: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+#mapid {
+    height: 300px;
+    width: 100%;
+}
+h3 {
+    font-size: 1.6rem;
+    color: $clr_primary;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border-radius: 0 0 .5rem .5rem;
+    background-image: url('../media/antoing_logo.png');
+    background-position-x: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 5rem;
+    &__nav {
+        &__mobileMenu {
+            a, a:visited {
+                text-decoration: none;
+                color: $clr_primary;
+                position: relative;
+                padding: 1rem;
+            }
+            @media screen and (min-width: 480px) {
+                display: none;
+            }
+        }
+        &__desktopMenu {
             list-style-type: none;
-            @media screen and (min-width:480px) {
-                justify-content: start;
-                gap: 1rem;
+            display: flex;
+            font-size: 1rem;
+            display: none;
+            li {
+                padding: 1rem;
+                a, a:visited {
+                    position: relative;
+                    text-decoration: none;
+                    color: $clr_primary;
+                    display: block;
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        bottom: -.3rem;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        width: 100%;
+                        height: 4px;
+                        border-radius: 2px;
+                        background-color: $clr_accent;
+                        opacity: 0;
+                        transition: opacity .2s;
+                    }
+                    &:hover::before {
+                        opacity: 1;
+                    }
+                }
+            }
+            @media screen and (min-width: 480px) {
+                display: flex;
             }
         }
     }
 }
-.leaflet-routing-container {
+.main {
+    &__banner {
+        height: 300px;
+        background: linear-gradient(90deg, rgb(20, 151, 213), rgb(203, 222, 156));
+        padding: 2rem;
+        position: relative;
+        isolation: isolate;
+        &__text {
+            color: $clr_primary;
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            width: 50%;
+            text-align: center;
+        }
+        &__castle {
+            width: 100%;
+            height: 100%;
+            background: url('../media/chaateau.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position-x: right;
+            background-position-y: bottom;
+            position: relative;
+            z-index:-1;
+        }
+    }
+    &__nav {
+        display: flex;
+        flex-wrap: wrap;
+        h3 {
+            margin: 0 auto;
+            padding-block: 1rem;
+        }
+        &__btn {
+            flex: 1 0 50%;
+            padding: .5rem;
+            &__icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex-direction: column;
+                background-color: $clr_secondary;
+                border-radius: 1rem;
+                padding: 1rem;
+                cursor: pointer;
+                transition: transform .2s;
+                color: $clr_white;
+                &:hover {
+                    transform: scale(1.1);
+                }
+                figure {
+                    margin: 0;
+                    img {
+                        max-width: 100%;
+                        filter: invert(1);
+                    }
+                }
+                p{
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+.leaflet-routing-container, .hidden {
     display: none;
 }
 
