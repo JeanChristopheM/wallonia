@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="">
-    <img src="./src/media/antoing.png" alt="Antoing armories" width="80" height="80">
+    <img src="./src/media/antoing.png" alt="Antoing armories" width="80" height="130">
   </a>
 
 <h3 align="center">project_title</h3>
