@@ -5,14 +5,17 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="">
-    <img src="./docs/media/antoing.png" alt="Antoing armories" height="150px">
-  </a>
+  <img src="./docs/media/antoing.png" alt="Antoing armories" height="150px">
 
-<h3 align="center">Boot'Antoing</h3>
+  <h3>Boot'Antoing</h3>
 
-  <p align="center">
-    A city map of Antoing made with the objective of reconnecting the inhabitants to the land.
+  <p>
+    A city map of Antoing made with the objective of reconnecting the inhabitants to the land.  
+    <br />
+    <a href=https://github.com/JeanChristopheM/wallonia/tree/master/docs><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="jeanchristophem.github.io/wallonia/">View Demo</a>
   </p>
 </div>
 
