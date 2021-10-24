@@ -56,6 +56,8 @@ The hackathon was only for a week-end, so it's a prototype, not a full app. The 
 * JavaScript
 * HTML
 * Sass
+* Tailwind
+* Leaflet
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -64,8 +66,7 @@ The hackathon was only for a week-end, so it's a prototype, not a full app. The 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-The app would be used to plan local strolls, discover local history and monuments, be informed about local events, participate in games to win some sales coupons for local shops,...  
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The app would be used to plan local strolls, discover local history and monuments, be informed about local events, participate in games to win some local products and sales coupons for local shops, all in the goal of re-injecting life in the town.
 
 _For more examples, please refer to the [Prototype deploy](https://jeanchristophem.github.io/wallonia/)_
 
