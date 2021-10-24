@@ -1,0 +1,34 @@
+{
+  "name": "wallonia",
+  "version": "1.0.0",
+  "description": "<div id=\"top\"></div>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "postcss build input.css -o output.css",
+    "watch": "postcss build input.css -o output.css --watch",
+    "prod": "cross-env NODE_ENV=production postcss input.css -o output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanChristopheM/wallonia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeanChristopheM/wallonia/issues"
+  },
+  "homepage": "https://github.com/JeanChristopheM/wallonia#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.17"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "postcss-cli": "^9.0.1"
+  }
+}

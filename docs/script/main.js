@@ -4,7 +4,46 @@ const app = async () => {
     const tileUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
     const tiles = L.tileLayer(tileUrl, { attribution });
     tiles.addTo(mymap);
-    
+    // Burger menus
+  document.addEventListener("DOMContentLoaded", function () {
+    // open
+    const burger = document.querySelectorAll(".navbar-burger");
+    const menu = document.querySelectorAll(".navbar-menu");
+  
+    if (burger.length && menu.length) {
+      for (var i = 0; i < burger.length; i++) {
+        burger[i].addEventListener("click", function () {
+          for (var j = 0; j < menu.length; j++) {
+            menu[j].classList.toggle("hidden");
+          }
+        });
+      }
+    }
+  
+    // close
+    const close = document.querySelectorAll(".navbar-close");
+    const backdrop = document.querySelectorAll(".navbar-backdrop");
+  
+    if (close.length) {
+      for (var i = 0; i < close.length; i++) {
+        close[i].addEventListener("click", function () {
+          for (var j = 0; j < menu.length; j++) {
+            menu[j].classList.toggle("hidden");
+          }
+        });
+      }
+    }
+  
+    if (backdrop.length) {
+      for (var i = 0; i < backdrop.length; i++) {
+        backdrop[i].addEventListener("click", function () {
+          for (var j = 0; j < menu.length; j++) {
+            menu[j].classList.toggle("hidden");
+          }
+        });
+      }
+    }
+  });
     //MapIcon class
     const mapIcon = L.Icon.extend({
         options: {
@@ -16,23 +55,23 @@ const app = async () => {
         }
     });
     //Customizing icons and setting up layers
-    const artIcon = new mapIcon({iconUrl: './media/mapIcons/color-palette-10818.svg', shadowUrl: './media/mapIcons/empty.png'});
+    const artIcon = new mapIcon({iconUrl: '../media/newIcons/blueIcon.svg', shadowUrl: '../media/mapIcons/empty.png'});
     let artLayer = L.layerGroup();
-    const tourismIcon = new mapIcon({iconUrl: './media/mapIcons/map-signs-solid.svg', shadowUrl: './media/mapIcons/empty.png'});
+    const tourismIcon = new mapIcon({iconUrl: '../media/mapIcons/map-signs-solid.svg', shadowUrl: '../media/mapIcons/empty.png'});
     let tourismLayer = L.layerGroup();
-    const cultureIcon = new mapIcon({iconUrl: './media/mapIcons/theater-masks-solid.svg', shadowUrl: './media/mapIcons/empty.png'});
+    const cultureIcon = new mapIcon({iconUrl: '../media/mapIcons/theater-masks-solid.svg', shadowUrl: '../media/mapIcons/empty.png'});
     let cultureLayer = L.layerGroup();
-    const atmIcon = new mapIcon({iconUrl: './media/mapIcons/euro-sign-solid.svg', shadowUrl: './media/mapIcons/empty.png'});
+    const atmIcon = new mapIcon({iconUrl: '../media/mapIcons/euro-sign-solid.svg', shadowUrl: '../media/mapIcons/empty.png'});
     let atmLayer = L.layerGroup();
-    const playgroundIcon = new mapIcon({iconUrl: './media/mapIcons/child-solid.svg', shadowUrl: './media/mapIcons/empty.png'});
+    const playgroundIcon = new mapIcon({iconUrl: '../media/mapIcons/child-solid.svg', shadowUrl: '../media/mapIcons/empty.png'});
     let playgroundLayer = L.layerGroup();
-    const horecaIcon = new mapIcon({iconUrl: './media/mapIcons/utensils-solid.svg', shadowUrl: './media/mapIcons/empty.png'});
+    const horecaIcon = new mapIcon({iconUrl: '../media/mapIcons/utensils-solid.svg', shadowUrl: '../media/mapIcons/empty.png'});
     let horecaLayer = L.layerGroup();
-    const commerceIcon = new mapIcon({iconUrl: './media/mapIcons/shopping-cart-solid.svg', shadowUrl: './media/mapIcons/empty.png'});
+    const commerceIcon = new mapIcon({iconUrl: '../media/mapIcons/shopping-cart-solid.svg', shadowUrl: '../media/mapIcons/empty.png'});
     let commerceLayer = L.layerGroup();
-    const sportIcon = new mapIcon({iconUrl: './media/mapIcons/futbol-solid.svg', shadowUrl: './media/mapIcons/empty.png'});
+    const sportIcon = new mapIcon({iconUrl: '../media/mapIcons/futbol-solid.svg', shadowUrl: '../media/mapIcons/empty.png'});
     let sportLayer = L.layerGroup();
-    const commuIcon = new mapIcon({iconUrl: './media/mapIcons/people-carry-solid.svg', shadowUrl: './media/mapIcons/empty.png'});
+    const commuIcon = new mapIcon({iconUrl: '../media/mapIcons/people-carry-solid.svg', shadowUrl: '../media/mapIcons/empty.png'});
     let commuLayer = L.layerGroup();
     /*
     const dataSources = {
@@ -70,7 +109,7 @@ const app = async () => {
         }
     }
     const dataSets = [];
-    for (x=0;x<dataUrls.length;x++) {
+    for (let x=0;x<dataUrls.length;x++) {
         let data = await getDB(dataUrls[x]);
         dataSets.push(data);
     }
