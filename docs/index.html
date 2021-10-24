@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+    <script src="https://kit.fontawesome.com/2028433eb8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/main.css">
+
+    <title>Boot'Antoing</title>
+
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__nav__desktopMenu">
+                <li><a href="https://www.antoing.net/">MA COMMUNE</a></li>
+                <li><a href="#">LOISIR</a></li>
+                <li><a href="#">ECONOMIE</a></li>
+                <li><a href="#">Je suis</a></li>
+            </ul>
+            <div class="header__nav__mobileMenu">
+                <a href="#">MENU</a>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="main__banner">
+            <div class="main__banner__text">
+                <h3>Boot'Antoing</h3>
+                <p>Nouvelles application pour découvrir et redécouvrir votre commune</p>
+            </div>
+            <div class="main__banner__castle">
+                <p class="hidden">yo</p>
+            </div>
+        </section>
+        <nav class="main__nav">
+            <h3>Bonjour, que cherchez vous ?</h3>
+            <div class="main__nav__btn">
+                <a href="itinerary.html">
+                    <div class="main__nav__btn__icon">
+                        <p>Itinéraires</p>
+                        <figure>
+                            <img src="./media/noun_Road_4343426.svg" alt="Road Icon">
+                        </figure>
+                    </div>
+                </a>
+            </div>
+            <div class="main__nav__btn">
+                <a href="poi.html">
+                    <div class="main__nav__btn__icon">
+                        <p>Points d'intérêts</p>
+                        <figure>
+                            <img src="./media/noun_Place POI_686080.svg" alt="POI Icon">
+                        </figure>
+                    </div>
+                </a>
+            </div>
+            <div class="main__nav__btn">
+                <a href="events.html">
+                    <div class="main__nav__btn__icon">
+                        <p>Agenda des évènements</p>
+                        <figure>
+                            <img src="./media/noun_Calendar_4340940.svg" alt="Events Icon">
+                        </figure>
+                    </div>
+                </a>
+            </div>
+            <div class="main__nav__btn">
+                <a href="transport.html">
+                    <div class="main__nav__btn__icon">
+                        <p>Transport en commun</p>
+                        <figure>
+                            <img src="./media/noun_Bus_3344168.svg" alt="Transport Icon">
+                        </figure>
+                    </div>
+                </a>
+            </div>
+        </nav>
+        <div id="mapid"></div>
+        <script src="./script/main.js"></script>
+    </main>
+    <footer class="footer">
+        <nav class="footer__nav">
+            <ul>
+                <li>
+                    <a href="#">
+                        <p><i class="fab fa-facebook-f"></i></p>
+                    </a>
+                </li>
+                <li>
+                    <h4>Centre Administratif</h4>
+                    <p>Chemin de Saint-Druon, 1</p>
+                    <p>7640 Antoing</p>
+                </li>
+                <li>
+                    <a href="#">
+                        <p><i class="fab fa-twitter"></i></p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>

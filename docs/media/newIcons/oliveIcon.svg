@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="20"
+   width="20"
+   id="svg12"
+   xml:space="preserve"
+   viewBox="0 0 20 20.000001"
+   y="0px"
+   x="0px"
+   version="1.1"
+   sodipodi:docname="oliveIcon.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="647"
+     inkscape:window-height="704"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="11.8"
+     inkscape:cx="10"
+     inkscape:cy="20.169492"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg12" /><metadata
+     id="metadata18"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs16" /><style
+     id="style2"
+     type="text/css">
+	.st0{fill:none;stroke:#B52828;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+</style><g
+     transform="matrix(0.2434975,0,0,0.2434975,-2.2004577,-2.510774)"
+     id="g6"
+     style="fill:#808000"><path
+       style="fill:#808000"
+       id="path4"
+       d="m 50,11.3 c -16.5,0 -30,13.5 -30,30 0,12.9 18,37.4 25.7,47.4 1,1.3 2.6,2.1 4.3,2.1 1.7,0 3.2,-0.8 4.2,-2.1 C 62,78.7 80,54.2 80,41.3 80,24.8 66.5,11.3 50,11.3 Z m 0,41.1 c -6.9,0 -12.4,-5.6 -12.4,-12.4 0,-6.9 5.6,-12.4 12.4,-12.4 6.8,0 12.4,5.6 12.4,12.4 0,6.8 -5.5,12.4 -12.4,12.4 z"
+       inkscape:connector-curvature="0" /></g></svg>
