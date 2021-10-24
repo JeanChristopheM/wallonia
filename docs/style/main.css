@@ -25,9 +25,21 @@ html, body {
   width: 100%;
 }
 
+@media screen and (min-width: 1400px) {
+  #mapid {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
+
 h3 {
   font-size: 1.6rem;
   color: #252D30;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .header {
@@ -46,6 +58,13 @@ h3 {
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 5rem;
+}
+
+@media screen and (min-width: 1400px) {
+  .header {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
 }
 
 .header__nav__mobileMenu a, .header__nav__mobileMenu a:visited {
@@ -127,6 +146,13 @@ h3 {
   text-align: center;
 }
 
+@media screen and (min-width: 1400px) {
+  .main__banner__text {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
+
 .main__banner__castle {
   width: 100%;
   height: 100%;
@@ -139,23 +165,41 @@ h3 {
   z-index: -1;
 }
 
+@media screen and (min-width: 1400px) {
+  .main__banner__castle {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}
+
 .main__nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 1400px) {
+  .main__nav {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
 }
 
 .main__nav h3 {
   margin: 0 auto;
-  padding-block: 1rem;
+  padding-block: 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
 }
 
 .main__nav__btn {
   -webkit-box-flex: 1;
-      -ms-flex: 1 0 50%;
-          flex: 1 0 50%;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
   padding: .5rem;
 }
 
@@ -183,11 +227,12 @@ h3 {
   transition: transform .2s;
   transition: transform .2s, -webkit-transform .2s;
   color: #F3F3F3;
+  min-height: 100%;
 }
 
 .main__nav__btn__icon:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .main__nav__btn__icon figure {
@@ -202,6 +247,111 @@ h3 {
 
 .main__nav__btn__icon p {
   margin: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .main__nav__btn {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main__nav__btn {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 25%;
+            flex: 1 0 25%;
+  }
+}
+
+.footer {
+  background-color: #252D30;
+  color: #F3F3F3;
+  min-height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__nav {
+  text-align: center;
+}
+
+.footer__nav ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__nav ul li {
+  padding: 1rem;
+}
+
+.footer__nav ul li:first-child {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+@media screen and (min-width: 480px) {
+  .footer__nav ul li:first-child {
+    -webkit-box-ordinal-group: unset;
+        -ms-flex-order: unset;
+            order: unset;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .footer__nav ul {
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+        -ms-flex-direction: unset;
+            flex-direction: unset;
+  }
+}
+
+.footer__nav p {
+  margin: 0;
+}
+
+.footer__nav i {
+  font-size: 1.5rem;
+  background-color: #F3F3F3;
+  color: #252D30;
+  height: 2em;
+  width: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 1em;
+}
+
+.footer__nav i:hover {
+  -webkit-filter: invert(1);
+          filter: invert(1);
 }
 
 .leaflet-routing-container, .hidden {

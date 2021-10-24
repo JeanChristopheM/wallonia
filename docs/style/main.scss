@@ -11,6 +11,7 @@ $clr_primary: #252D30;
 $clr_secondary: #707070;
 $clr_white: #F3F3F3;
 $clr_accent: #F6343D;
+$limiter: 1400px;
 
 html, body {
     margin: 0;
@@ -24,10 +25,18 @@ html, body {
 #mapid {
     height: 300px;
     width: 100%;
+    @media screen and (min-width: 1400px) {
+        max-width: $limiter;
+        margin: 0 auto;
+    }
 }
 h3 {
     font-size: 1.6rem;
     color: $clr_primary;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
 .header {
     display: flex;
@@ -39,6 +48,10 @@ h3 {
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 5rem;
+    @media screen and (min-width: 1400px) {
+        max-width: $limiter;
+        margin: 0 auto;
+    }
     &__nav {
         &__mobileMenu {
             a, a:visited {
@@ -101,6 +114,10 @@ h3 {
             left: 1rem;
             width: 50%;
             text-align: center;
+            @media screen and (min-width: 1400px) {
+                max-width: $limiter;
+                margin: 0 auto;
+            }
         }
         &__castle {
             width: 100%;
@@ -112,17 +129,27 @@ h3 {
             background-position-y: bottom;
             position: relative;
             z-index:-1;
+            @media screen and (min-width: 1400px) {
+                max-width: $limiter;
+                margin: 0 auto;
+            }
         }
     }
     &__nav {
         display: flex;
         flex-wrap: wrap;
+        padding-bottom: 3rem;
+        @media screen and (min-width: 1400px) {
+            max-width: $limiter;
+            margin: 0 auto;
+        }
         h3 {
             margin: 0 auto;
-            padding-block: 1rem;
+            padding-block: 2rem;
+            flex: 1 0 100%;
         }
         &__btn {
-            flex: 1 0 50%;
+            flex: 1 0 100%;
             padding: .5rem;
             &__icon {
                 display: flex;
@@ -136,8 +163,9 @@ h3 {
                 cursor: pointer;
                 transition: transform .2s;
                 color: $clr_white;
+                min-height: 100%;
                 &:hover {
-                    transform: scale(1.1);
+                    transform: scale(1.05);
                 }
                 figure {
                     margin: 0;
@@ -149,6 +177,60 @@ h3 {
                 p{
                     margin: 0;
                 }
+            }
+            @media screen and (min-width: 480px) {
+                flex: 1 0 50%;
+            }
+            @media screen and (min-width: 1024px) {
+                flex: 1 0 25%;
+            }
+        }
+    }
+}
+.footer {
+    background-color: $clr_primary;
+    color: $clr_white;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__nav {
+        text-align: center;
+        ul {
+            list-style-type: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            flex-direction: column;
+            li {
+                padding: 1rem;
+            }
+            li:first-child {
+                order:1;
+                @media screen and (min-width: 480px) {
+                    order:unset;
+                }
+            }
+            @media screen and (min-width: 480px) {
+                flex-direction: unset;
+            }
+        }
+        p {
+            margin: 0;
+        }
+        i {
+            font-size: 1.5rem;
+            background-color: $clr_white;
+            color: $clr_primary;
+            height: 2em;
+            width: 2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 1em;
+            &:hover {
+                filter: invert(1);
             }
         }
     }
