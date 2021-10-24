@@ -46,7 +46,7 @@
 [![Boot'Antoing Screen Shot][bootantoing-screenshot]](https://jeanchristophem.github.io/wallonia/)
 
 Boot'Antoing was made during a [Citizens of Wallonia](https://www.citizensofwallonia.be/) hackathon. 
-The aim is to reconnect the citizens with the history of their home, to boost local city life, and aid local shops.  
+The aim is to reconnect the citizens of Antoing with the history of their home, to boost local city life, and aid local shops.  
 The hackathon was only for a week-end, so it's a prototype, not a full app. The final goal would be to have an app integrated into [Wallonie en Poche](https://wallonie.enpoche.be/wallonie), that people could use to plan walks around the land and discover its heritage and local life along the way.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -76,12 +76,10 @@ _For more examples, please refer to the [Prototype deploy](https://jeanchristoph
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Transitionning to mobile app
-- [] Adding capacity to scan QR codes
-- [] Adding quizz about local history
-    - [] Collect'em'all for all monuments of the city, with a recompense
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+- Transitionning to mobile app
+- Adding capacity to scan QR codes
+- Adding quizz about local history
+    - Explorer badges unlocked by visiting checkpoints
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
