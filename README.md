@@ -102,7 +102,7 @@ Loïc Rouaud - [github](https://github.com/MrBroma) - [linkedin](https://www.lin
 
 Lucas Ielli - [github](https://github.com/LucasIelli) - [linkedin](https://www.linkedin.com/in/lucas-ielli-66a262215/) - [discord](https://discordapp.com/users/855163183986507817)
 
-Stéphanie Antignac - [github](https://github.com/StephanieAn) - [linkedin](www.linkedin.com/in/stéphanie-antignac) - [discord](https://discordapp.com/users/836511092586577921)
+Stéphanie Antignac - [github](https://github.com/StephanieAn) - [linkedin](https://www.linkedin.com/in/stéphanie-antignac) - [discord](https://discordapp.com/users/836511092586577921)
 
 Zoé Ranzy - [github](https://github.com/hawkstan) - [linkedin](https://www.linkedin.com/in/z-m-ranzy/) - [discord](https://discordapp.com/users/nfr#7235/)
 
