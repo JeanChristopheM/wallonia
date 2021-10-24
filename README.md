@@ -45,7 +45,7 @@
 
 [![Boot'Antoing Screen Shot][bootantoing-screenshot]](https://jeanchristophem.github.io/wallonia/)
 
-Boot'Antoing was made during a [Citizens of Wallonia](https://www.citizensofwallonia.be/) hackathon. 
+Boot'Antoing was made during a [Citizens of Wallonia](https://www.citizensofwallonia.be/) hackathon.   
 The aim is to reconnect the citizens of Antoing with the history of their home, to boost local city life, and aid local shops.  
 The hackathon was only for a week-end, so it's a prototype, not a full app. The final goal would be to have an app integrated into [Wallonie en Poche](https://wallonie.enpoche.be/wallonie), that people could use to plan walks around the land and discover its heritage and local life along the way.
 
@@ -125,4 +125,4 @@ Zoé Ranzy - [github](https://github.com/hawkstan) - [linkedin](https://www.link
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[bootantoing-screenshot]: ./docs/media/screenshot.png
+[bootantoing-screenshot]: ./docs/media/screenshot-big.png
