@@ -45,8 +45,8 @@
 
 [![Boot'Antoing Screen Shot][bootantoing-screenshot]](https://jeanchristophem.github.io/wallonia/)
 
-Boot'Antoing was made during a [Citizens of Wallonia](https://www.citizensofwallonia.be/) hackathon. 
-The aim is to reconnect the citizens with the history of their home, to boost local city life, and aid local shops.  
+Boot'Antoing was made during a [Citizens of Wallonia](https://www.citizensofwallonia.be/) hackathon.   
+The aim is to reconnect the citizens of Antoing with the history of their home, to boost local city life, and aid local shops.  
 The hackathon was only for a week-end, so it's a prototype, not a full app. The final goal would be to have an app integrated into [Wallonie en Poche](https://wallonie.enpoche.be/wallonie), that people could use to plan walks around the land and discover its heritage and local life along the way.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -76,12 +76,10 @@ _For more examples, please refer to the [Prototype deploy](https://jeanchristoph
 <!-- ROADMAP -->
 ## Roadmap
 
-- [] Transitionning to mobile app
-- [] Adding capacity to scan QR codes
-- [] Adding quizz about local history
-    - [] Collect'em'all for all monuments of the city, with a recompense
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+- Transitionning to mobile app
+- Adding capacity to scan QR codes
+- Adding quizz about local history
+    - Explorer badges unlocked by visiting checkpoints
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -104,7 +102,7 @@ Loïc Rouaud - [github](https://github.com/MrBroma) - [linkedin](https://www.lin
 
 Lucas Ielli - [github](https://github.com/LucasIelli) - [linkedin](https://www.linkedin.com/in/lucas-ielli-66a262215/) - [discord](https://discordapp.com/users/855163183986507817)
 
-Stéphanie Antignac - [github](https://github.com/StephanieAn) - [linkedin](www.linkedin.com/in/stéphanie-antignac) - [discord](https://discordapp.com/users/836511092586577921)
+Stéphanie Antignac - [github](https://github.com/StephanieAn) - [linkedin](https://www.linkedin.com/in/stéphanie-antignac) - [discord](https://discordapp.com/users/836511092586577921)
 
 Zoé Ranzy - [github](https://github.com/hawkstan) - [linkedin](https://www.linkedin.com/in/z-m-ranzy/) - [discord](https://discordapp.com/users/nfr#7235/)
 
@@ -127,4 +125,4 @@ Zoé Ranzy - [github](https://github.com/hawkstan) - [linkedin](https://www.link
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[bootantoing-screenshot]: ./docs/media/screenshot.png
+[bootantoing-screenshot]: ./docs/media/screenshot-big.png
